@@ -92,12 +92,47 @@
 
 ## Traceability
 
-| Phase | Requirements Covered |
-|-------|---------------------|
-| Phase 1 | FOUND-01–05 |
-| Phase 2 | SEO-01–05, HERO-01–06 |
-| Phase 3 | GAL-01–07 |
-| Phase 4 | SVC-01–03, CONT-01–05, STICK-01–04 |
-| Phase 5 | PERF-01–05, GAL-06–07 (real photos + launch checks) |
+| Requirement | Phase | Status |
+|-------------|-------|--------|
+| FOUND-01 | Phase 1 | Pending |
+| FOUND-02 | Phase 1 | Pending |
+| FOUND-03 | Phase 1 | Pending |
+| FOUND-04 | Phase 1 | Pending |
+| FOUND-05 | Phase 1 | Pending |
+| SEO-01 | Phase 2 | Pending |
+| SEO-02 | Phase 2 | Pending |
+| SEO-03 | Phase 2 | Pending |
+| SEO-04 | Phase 2 | Pending |
+| SEO-05 | Phase 2 | Pending |
+| HERO-01 | Phase 2 | Pending |
+| HERO-02 | Phase 2 | Pending |
+| HERO-03 | Phase 2 | Pending |
+| HERO-04 | Phase 2 | Pending |
+| HERO-05 | Phase 2 | Pending |
+| HERO-06 | Phase 2 | Pending |
+| GAL-01 | Phase 3 | Pending |
+| GAL-02 | Phase 3 | Pending |
+| GAL-03 | Phase 3 | Pending |
+| GAL-04 | Phase 3 | Pending |
+| GAL-05 | Phase 3 | Pending |
+| GAL-06 | Phase 5 | Pending |
+| GAL-07 | Phase 5 | Pending |
+| SVC-01 | Phase 4 | Pending |
+| SVC-02 | Phase 4 | Pending |
+| SVC-03 | Phase 4 | Pending |
+| CONT-01 | Phase 4 | Pending |
+| CONT-02 | Phase 4 | Pending |
+| CONT-03 | Phase 4 | Pending |
+| CONT-04 | Phase 4 | Pending |
+| CONT-05 | Phase 4 | Pending |
+| STICK-01 | Phase 4 | Pending |
+| STICK-02 | Phase 4 | Pending |
+| STICK-03 | Phase 4 | Pending |
+| STICK-04 | Phase 4 | Pending |
+| PERF-01 | Phase 5 | Pending |
+| PERF-02 | Phase 5 | Pending |
+| PERF-03 | Phase 5 | Pending |
+| PERF-04 | Phase 5 | Pending |
+| PERF-05 | Phase 5 | Pending |
 
-*Traceability updated after roadmap creation.*
+*Traceability updated 2026-05-03 after roadmap creation. 40/40 v1 requirements mapped.*
