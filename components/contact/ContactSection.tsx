@@ -40,9 +40,17 @@ export function ContactSection() {
           </svg>
           Serving Regina, White City, Emerald Park, Pilot Butte & surrounding area
         </p>
-        <p className="text-xs text-text/40">
+        <p className="text-xs text-text/40 mb-3">
           &copy; {new Date().getFullYear()} Sask Garage Glow-Up. All rights reserved.
         </p>
+        <a
+          href="https://mapletech.solutions/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block text-xs text-text/40 hover:text-primary transition-colors"
+        >
+          Website built &amp; maintained by Prairies Maple Tech Solutions
+        </a>
       </div>
     </section>
   );
