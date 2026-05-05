@@ -17,7 +17,7 @@ export function HeroSection() {
             Your Garage. <br />Cleaned Out. <br />Organized. Done.
           </h1>
           <p className="text-xl sm:text-2xl text-white/90 font-medium mb-10 max-w-xl">
-            Same-day service in Regina. We do the heavy lifting — you get your garage back.
+            Same-day service in Regina. We do the heavy lifting. You get your garage back.
           </p>
           <CTAButtons className="mb-10" />
           <TrustBadges />

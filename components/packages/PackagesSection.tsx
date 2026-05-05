@@ -1,4 +1,4 @@
-import { PHONE_HREF } from "@/lib/contact";
+import { SMS_HREF } from "@/lib/contact";
 
 export function PackagesSection() {
   return (
@@ -23,7 +23,7 @@ export function PackagesSection() {
               {[
                 "We clear everything out of your garage",
                 "Sweep, vacuum, and wipe everything down",
-                "Put it all back — organized and tidy",
+                "Put it all back, organized and tidy",
                 "You tell us how you want it, we make it happen"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
@@ -36,10 +36,10 @@ export function PackagesSection() {
             </ul>
             
             <a 
-              href={PHONE_HREF}
+              href={SMS_HREF}
               className="block text-center bg-primary text-white font-bold py-4 px-6 rounded-lg text-lg hover:bg-primary-dark transition-colors w-full"
             >
-              Call to Book
+              Text to Book
             </a>
           </div>
 
@@ -70,10 +70,10 @@ export function PackagesSection() {
             </ul>
             
             <a 
-              href={PHONE_HREF}
+              href={SMS_HREF}
               className="block text-center bg-accent text-white font-bold py-4 px-6 rounded-lg text-lg hover:bg-yellow-600 transition-colors w-full shadow-md"
             >
-              Call to Book
+              Text to Book
             </a>
           </div>
         </div>

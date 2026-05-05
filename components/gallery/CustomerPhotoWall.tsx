@@ -8,7 +8,7 @@ export function CustomerPhotoWall() {
           Real Regina Garages.<br/>Real Results.
         </h3>
         <p className="text-lg text-text/70">
-          Want to be next on this wall? Give us a call or shoot us a message — we&apos;d love to add you.
+          Want to be next on this wall? Text us or message us on Facebook. We&apos;d love to add you.
         </p>
       </div>
 

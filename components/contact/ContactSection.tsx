@@ -1,4 +1,4 @@
-import { PHONE, PHONE_HREF, FACEBOOK_URL } from "@/lib/contact";
+import { SMS_HREF, FACEBOOK_URL } from "@/lib/contact";
 
 export function ContactSection() {
   return (
@@ -8,15 +8,15 @@ export function ContactSection() {
           Ready to get your garage back?
         </h2>
         <p className="text-xl text-text/70 mb-12">
-          Give us a call. We'll tell you how it works and get you booked in.
+          Send us a quick text. We'll tell you how it works and get you booked in.
         </p>
         
         <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12">
           <a 
-            href={PHONE_HREF}
+            href={SMS_HREF}
             className="flex items-center justify-center bg-accent text-white font-bold py-5 px-8 rounded-lg text-xl w-full sm:w-auto hover:bg-yellow-600 transition-colors shadow-xl"
           >
-            Call Now — {PHONE}
+            Text Now for a Free Quote
           </a>
           <a 
             href={FACEBOOK_URL}
