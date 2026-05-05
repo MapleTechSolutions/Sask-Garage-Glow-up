@@ -5,16 +5,16 @@
 See: .planning/PROJECT.md (updated 2026-05-03)
 
 **Core value:** Before & after photo gallery that makes the transformation tangible — loads fast and looks stunning on a phone screen
-**Current focus:** Phase 1 — Scaffold
+**Current focus:** Phase 2 — SEO + Hero
 
 ## Current Position
 
-Phase: 1 of 5 (Scaffold)
+Phase: 2 of 5 (SEO + Hero)
 Plan: 0 of ? in current phase
 Status: Ready to plan
-Last activity: 2026-05-03 — Roadmap and state initialized
+Last activity: 2026-05-04 — Phase 1 completed (2/2 plans executed)
 
-Progress: [░░░░░░░░░░] 0%
+Progress: [██░░░░░░░░] 20%
 
 ## Performance Metrics
 
@@ -72,6 +72,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-03
-Stopped at: Roadmap created, STATE.md initialized — ready to plan Phase 1
+Last session: 2026-05-04
+Stopped at: Phase 1 complete — scaffold verified, brand tokens live, contact constants in place — ready to plan Phase 2
 Resume file: None

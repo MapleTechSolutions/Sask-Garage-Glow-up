@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand color tokens — semantic only, no shade scales */
+  --color-primary: #2E7D32;        /* canonical green from logo — replace if SVG extraction found a value */
+  --color-primary-dark: #1B5E20;   /* darkened for hover states */
+  --color-accent: #F59E0B;         /* canonical gold/orange — replace if SVG extraction found a value */
+  --color-text: #1A1A1A;           /* near-black for body text */
+  --color-bg: #FFFFFF;             /* page background */
+  --color-bg-muted: #F5F5F5;       /* subtle section alternation */
+
+  /* Typography — system font stack, no external font requests */
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}

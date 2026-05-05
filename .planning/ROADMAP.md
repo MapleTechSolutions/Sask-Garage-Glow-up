@@ -29,7 +29,11 @@ Decimal phases appear between their surrounding integers in numeric order.
   2. Brand design tokens (primary green, accent gold, neutral grays) are available as Tailwind utilities and visible in a dev preview
   3. `lib/contact.ts` is the single source of truth — no phone number or Facebook URL appears hardcoded anywhere else
   4. The global layout shell renders with correct `metadataBase` and the HTML `<head>` includes a valid title tag
-**Plans**: TBD
+**Plans**: 2 plans
+
+Plans:
+- [ ] 01-01-PLAN.md — Initialize Next.js 15 with App Router, Tailwind v4, and static export; verify `next build` produces `/out`
+- [ ] 01-02-PLAN.md — Configure Tailwind v4 brand tokens, create `lib/contact.ts`, complete root layout shell
 
 ### Phase 2: SEO + Hero
 **Goal**: A visitor landing from a Facebook ad sees a compelling above-the-fold hero with clear CTAs, and the page is fully instrumented for local search and social sharing
@@ -87,7 +91,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Scaffold | 0/? | Not started | - |
+| 1. Scaffold | 0/2 | Not started | - |
 | 2. SEO + Hero | 0/? | Not started | - |
 | 3. Gallery | 0/? | Not started | - |
 | 4. Services, Contact + Sticky Bar | 0/? | Not started | - |

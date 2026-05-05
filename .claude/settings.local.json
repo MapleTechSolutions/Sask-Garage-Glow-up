@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"D:\\\\VS Projects\\\\Sask Garage Glow-up\" add .planning/PROJECT.md)",
+      "Bash(git -C \"D:\\\\VS Projects\\\\Sask Garage Glow-up\" commit -m \"docs: initialize project\")",
+      "Bash(git -C \"D:\\\\VS Projects\\\\Sask Garage Glow-up\" add .planning/config.json)",
+      "Bash(git -C \"D:\\\\VS Projects\\\\Sask Garage Glow-up\" commit -m \"chore: add project config\")",
+      "Bash(python3 \"D:/VS Projects/Sask Garage Glow-up/.planning/research/write_summary.py\")",
+      "Bash(echo \"exit: $?\")",
+      "Bash(python3)",
+      "Bash(git init *)",
+      "Bash(python3 *)",
+      "Bash(cmd.exe /c \"echo test > C:\\\\temp_test.txt && type C:\\\\temp_test.txt\")",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git -C \"D:\\\\VS Projects\\\\Sask Garage Glow-up\" add .planning/REQUIREMENTS.md)",
+      "Bash(git -C \"D:\\\\VS Projects\\\\Sask Garage Glow-up\" commit -m \"docs: define v1 requirements\")",
+      "Bash(git -C \"D:\\\\VS Projects\\\\Sask Garage Glow-up\" add .planning/ROADMAP.md .planning/STATE.md .planning/REQUIREMENTS.md CLAUDE.md .planning/research/)",
+      "Bash(git -C \"D:\\\\VS Projects\\\\Sask Garage Glow-up\" commit -m \"docs: create roadmap \\(5 phases\\)\")",
+      "Bash(git -C \"D:\\\\VS Projects\\\\Sask Garage Glow-up\" status)",
+      "Bash(git -C \"D:\\\\VS Projects\\\\Sask Garage Glow-up\" add \".planning/research/ARCHITECTURE.md\" \".planning/research/FEATURES.md\" \".planning/research/PITFALLS.md\" \".planning/research/STACK.md\" \".planning/research/SUMMARY.md\" \"FB cover.jpg\" \"Sask Garage Glow-up logo.png\" \"Sask Garage Glow-up logo.svg\" \"truck.png\")",
+      "Bash(git -C \"D:\\\\VS Projects\\\\Sask Garage Glow-up\" commit -m \"docs: add research files and brand assets\")",
+      "Skill(gsd-discuss-phase)",
+      "Skill(gsd-plan-phase)",
+      "Bash(npm run *)",
+      "PowerShell(Copy-Item *)"
+    ]
+  }
+}
