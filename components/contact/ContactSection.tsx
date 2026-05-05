@@ -1,4 +1,4 @@
-import { SMS_HREF, FACEBOOK_URL } from "@/lib/contact";
+import { PHONE, PHONE_HREF, SMS_HREF, FACEBOOK_URL } from "@/lib/contact";
 
 export function ContactSection() {
   return (
@@ -8,25 +8,30 @@ export function ContactSection() {
           Ready to get your garage back?
         </h2>
         <p className="text-xl text-text/70 mb-12">
-          Send us a quick text. We'll tell you how it works and get you booked in.
+          Send us a quick text or give us a call. We'll tell you how it works and get you booked in.
         </p>
-        
-        <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12">
-          <a 
+
+        <div className="flex flex-col sm:flex-row justify-center gap-4 mb-6">
+          <a
             href={SMS_HREF}
             className="flex items-center justify-center bg-accent text-white font-bold py-5 px-8 rounded-lg text-xl w-full sm:w-auto hover:bg-yellow-600 transition-colors shadow-xl"
           >
             Text Now for a Free Quote
           </a>
-          <a 
-            href={FACEBOOK_URL}
-            target="_blank"
-            rel="noopener noreferrer"
+          <a
+            href={PHONE_HREF}
             className="flex items-center justify-center bg-white text-text border-2 border-gray-200 font-bold py-5 px-8 rounded-lg text-xl w-full sm:w-auto hover:bg-gray-50 transition-colors"
           >
-            Message on Facebook
+            Call Now
           </a>
         </div>
+
+        <p className="text-text/60 text-base mb-10">
+          Text or call us at{" "}
+          <a href={SMS_HREF} className="text-text font-bold underline underline-offset-2">{PHONE}</a>
+          {" "}or{" "}
+          <a href={FACEBOOK_URL} target="_blank" rel="noopener noreferrer" className="text-text font-bold underline underline-offset-2">message us on Facebook</a>
+        </p>
         
         <p className="text-sm font-semibold text-primary mb-4 flex items-center justify-center gap-2">
           <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
