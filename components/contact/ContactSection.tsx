@@ -47,9 +47,12 @@ export function ContactSection() {
           href="https://mapletech.solutions/"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block text-xs text-text/40 hover:text-primary transition-colors"
+          className="inline-flex items-center gap-2 mt-2 px-5 py-2.5 rounded-full border-2 border-primary text-primary font-bold text-sm hover:bg-primary hover:text-white transition-colors shadow-sm"
         >
-          Website built &amp; maintained by Prairies Maple Tech Solutions
+          <svg className="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+          </svg>
+          Built by Prairies Maple Tech Solutions
         </a>
       </div>
     </section>
